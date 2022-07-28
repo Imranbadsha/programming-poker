@@ -7,3 +7,17 @@ color: #289BDE;
 .dark-one{
     color: #4A4A4A;
 }
+.text-size-p {
+    font-size: 30px;
+}
+.text-size-h {
+    font-size: 60px;
+}
+@media screen and (min-width:250px) and (max-width:991px) {
+    .text-size-p{
+    font-size: 10px;
+    }
+    .text-size-h{
+    font-size: 20px;
+    }
+}
